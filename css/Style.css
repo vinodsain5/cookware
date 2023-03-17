@@ -90,6 +90,7 @@ input[type=text], select {
     width: 69%;
     margin: auto;
     border: none;
+    cursor: pointer;
 }
 .those-interested h3{
     border-bottom: 1px solid #000;
