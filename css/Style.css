@@ -1,0 +1,102 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+.kitchen-images{
+    width: 50%;
+}
+.kitchen-images img{
+    width: 100%;
+    margin-top: 2px;
+}
+.the-printing{
+    display: flex;
+    align-items: center;
+}
+.the-printing{
+    background: #f9cb30;
+    height: 518px;
+    width: 930px;
+    margin-top: 20px;
+    position: relative;
+}
+.those-interested{
+    text-align: center;
+}
+.close {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    right: 2%;
+}
+.those-interested span{
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 19px;
+}
+.those-interested h1{
+    font-size: 44px;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+
+}
+.those-interested p{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 22px;
+}
+input[type=text], select {
+    padding: 10px 15px;
+    width: 69%;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background: #feffff;
+    font-size: 12px;
+    border: 1px solid #83723e;
+}
+.those-interested button{
+    padding: 11px 15px;
+    background: #000;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 6px;
+    display: block;
+    width: 69%;
+    margin: auto;
+}
+.those-interested h3{
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    width: 44%;
+    margin: auto;
+    padding-top: 20px;
+    font-weight: 700;
+}
